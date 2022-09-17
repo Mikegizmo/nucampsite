@@ -7,21 +7,21 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: #5C57B3;
+  color: #012340;
 }
 
 header h2 {
-  color: #1F60E0;
+  color: #77CFF2;
 }
 
 footer {
-  background-image: linear-gradient(#71A10E, white);
+  background-image: linear-gradient(#04D939, white);
   padding: 20px 0;
 }
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #303319, #80433E, #331D1C);
+  background-image: linear-gradient(#012340, #04D939);
   color: white;
 }
 
