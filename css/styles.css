@@ -1,3 +1,9 @@
+@media (min-width: 600px) {
+  .inline { 
+    display: inline;
+  }
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
 }
@@ -6,16 +12,12 @@ h1, h2, h3 {
   font-family: "Courgette", cursive;
 }
 
-h2 {
+h2, header h2, h5 {
   color: #77CFF2;
 }
 
-h5, small {
-  color: #77CFF2;
-}
-
-header h2 {
-  color: #77CFF2;
+h3 {
+  color: #1A31D9;
 }
 
 footer {
