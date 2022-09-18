@@ -20,7 +20,15 @@ h3, .h3, footer h5 {
   color: #1A31D9;
 }
 
-footer {
+hr {
+  border: 2px solid #1A31D9;
+}
+
+.my-primary {
+  background-color: #1A31D9;
+} 
+
+.site-footer {
   background-image: linear-gradient(#04D939, white);
   padding: 20px 0;
 }
@@ -34,7 +42,7 @@ footer {
 
 .row-content {
   padding: 50px 0;
-  border-bottom: 1px ridge;
+  border-bottom: 2px solid #1A31D9;
   min-height: 200px;
 }
 
@@ -44,4 +52,9 @@ footer {
 
 .btn-primary {
   background-color: #1A31D9;
+}
+
+.form-control:focus {
+  border-color: #04D939;
+  box-shadow: inset 0 1px 1px #04D939, 0 0 8px #04D939;
 }
