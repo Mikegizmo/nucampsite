@@ -58,3 +58,9 @@ hr {
   border-color: #04D939;
   box-shadow: inset 0 1px 1px #04D939, 0 0 8px #04D939;
 }
+
+.img-thumbnail {
+  background-color: #012340;
+  border: 1px solid #012340;
+  border-radius: 0.5rem;
+}
