@@ -108,23 +108,67 @@
     </div>
 
     <div class="row row-content">
-      <div class="col-12">
+      <div class="col">
         <h3>Community Partners</h3>
-      </div>
-      <div class="col">  
-        <h4 class="inline">Bootstrap Outfitters</h4> 
-        <h5 class="inline">~ Outdoor Gear Specialists ~</h5>
-        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-        <h4 class="inline">Git Out Expeditions</h4> 
-        <h5 class="inline">~ Group Adventure Expeditions ~</h5>
-        <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-        <h4 class="inline">Mongo Fly Shop</h4>
-        <h5 class="inline">~ Your Neighborhood Fly Fishing Shop ~</h5>
-        <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-        <h4 class="inline">Node Outdoor Apparel</h4>
-        <h5 class="inline">~ Outdoor Clothes & Shoes ~</h5>
-        <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
-      </div>
+        <div id="accordion"> 
+          <div class="card">
+            <div class="card-header" role="tab">
+              <h4 class="inline">
+                <a data-toggle="collapse" data-target="#bootstrap">Bootstrap Outfitters
+                  <h5 class="inline">~ Outdoor Gear Specialists ~</h5>
+                </a>
+              </h4> 
+              <div class="collapse show" id="bootstrap" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab">
+              <h4 class="inline">
+                <a class="collapsed" data-toggle="collapse" data-target="#git">Git Out Expeditions
+                  <h5 class="inline">~ Group Adventure Expeditions ~</h5>
+                </a>
+              </h4>
+              <div class="collapse" id="git" data-parent="#accordion"> 
+                <div class="card-body">
+                  <p>Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab">  
+              <h4 class="inline">
+                <a class="collapsed" data-toggle="collapse" data-target="#mongo">Mongo Fly Shop
+                  <h5 class="inline">~ Your Neighborhood Fly Fishing Shop ~</h5>
+                </a>
+              </h4>
+              <div class="collapse" id="mongo" data-parent="#accordion">
+                <div class="card-body">
+                  <p>Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+                </div> 
+              </div> 
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab">  
+              <h4 class="inline">
+                <a class="collapsed" data-toggle="collapse" data-target="#node">Node Outdoor Apparel
+                  <h5 class="inline">~ Outdoor Clothes & Shoes ~</h5>
+                </a>
+              </h4>
+              <div class="collapse" id="node" data-parent="#accordion">
+                <div class="card-body">
+                  <p>From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                </div>
+              </div>  
+            </div>
+          </div>  
+        </div>
+      </div>  
     </div>
 
     <div class="row row-content">
