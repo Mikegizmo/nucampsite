@@ -31,6 +31,11 @@
           <h1>NuCamp</h1>
           <h2>a better way to camp</h2>
         </div>
+        <div class="col col-md-4 col-xl-2 mt-4">
+          <a href="#reserveForm">
+            <button class="btn btn-lg bg-green text-white mt-2" type="submit">Reserve Now</button>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -76,8 +81,13 @@
         <h2 class="text-sm-center">Featured Campsites</h2>
       </div>  
       <div class="col">
-        <h3>React Lake Campground</h3>
-        <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+        <div class="media">
+          <div class="media-body align-self-center">
+            <h3>React Lake Campground</h3>
+            <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+          </div>
+          <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake thumbnail">
+        </div>
       </div> 
     </div>   
   </div>
@@ -96,6 +106,40 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row row-content">
+      <div class="col-sm-10 col-md-8 mx-auto">
+        <div class="card">
+          <h3 class="card-header bg-green text-center">Reserve a Campsite</h3>
+          <div class="card-body">
+            <form action="#" id="reserveForm">
+              <div class="row form-group">
+                <label for="numCampers" class="col-form-label col-sm-6">Number of Campers</label>
+                <div class="col">
+                  <select name="numCampers" id="numCampers" class="form-control">
+                    <option value="select">Select...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row form-group">
+                <label for="date" class="col-form-label col-sm-6">Date</label>
+                <div class="col">
+                  <input type="date" id="date" name="date" class="form-control" placeholder="date">
+                </div>
+              </div>
+              <div class="col">
+                <button class="btn btn-block bg-green text-white mt-2" type="submit"><h5>Search</h5></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>    
   </div>
 
@@ -110,6 +154,7 @@
             <li><a href="aboutus.html">About</a></li>
             <li><a href="#">Sites</a></li>
             <li><a href="contactus.html">Contact</a></li>
+            <li><a href="#reserveForm">Reserve</a></li>
           </ul>
         </div>
         <div class="col-6 col-sm-5 text-center">
