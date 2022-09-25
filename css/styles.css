@@ -92,3 +92,15 @@ hr {
 a:hover {
   cursor: pointer;
 }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h3 {
+  color: #04D939;
+}
+
+.carousel {
+  border: solid 4px #012340;
+}
