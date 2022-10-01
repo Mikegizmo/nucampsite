@@ -179,7 +179,7 @@
               <img src="img/chrome-river.jpg" alt="Chrome River Campground" class="d-block w-100" />
               <div class="carousel-caption">
                 <h3>Chrome River Campground</h3>
-                <p class="d-none d-sm-block">Spend a few sunny days and starry nioghts beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
+                <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.</p>
               </div>
             </div>
           </div>
@@ -191,9 +191,18 @@
             <span class="carousel-control-next-icon"></span>
             <span class="sr-only">Next</span>
           </a>
+          <div class="btn-group" id="carouselButton">
+            <button class="btn btn-danger btn-sm" id="carouselPause">
+              <i class="fa fa-pause"></i>
+            </button>
+            <button class="btn btn-danger btn-sm" id="carouselPlay">
+              <i class="fa fa-play"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="row row-content align-items-center">
       <div class="col-sm-4 order-sm-last col-md-3">
         <h2 class="text-sm-center">Discover & Review</h2>
@@ -277,6 +286,17 @@
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+  <script>
+    $(function() {
+      $(".carousel").carousel( {interval:2000, pause: "false"} );
+      $("#carouselPause").click(function() {
+        $(".carousel").carousel("pause");
+      });
+      $("#carouselPlay").click(function() {
+        $(".carousel").carousel("cycle");
+      });
+    });
+  </script>
 </body>
 
 </html>
