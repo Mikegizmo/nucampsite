@@ -1,107 +1,128 @@
 @media (min-width: 600px) {
-  .inline {
-    display: inline; } }
+  .inline { 
+    display: inline;
+  }
+}
 
 body {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+}
 
 h1, h2, h3 {
-  font-family: "Courgette", cursive; }
+  font-family: "Courgette", cursive;
+}
 
-h2, h5 {
-  color: #77CFF2; }
+h2, header h2, h5 {
+  color: #77CFF2;
+}
 
-header h2 {
-  color: #77CFF2; }
-
-h3, .h3 {
-  color: #1A31D9; }
-
-footer h5 {
-  color: #1A31D9; }
+h3, .h3, footer h5 {
+  color: #1A31D9;
+}
 
 hr {
-  border: 2px solid #1A31D9; }
+  border: 2px solid #1A31D9;
+}
 
 .my-primary {
-  background-color: #1A31D9; }
+  background-color: #1A31D9;
+} 
 
 .site-footer {
   background-image: linear-gradient(#04D939, white);
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 .jumbotron {
   margin: 0;
   padding: 30px;
   background-image: linear-gradient(#012340, #04D939);
-  color: white; }
+  color: white;
+}
 
 .row-content {
   padding: 50px 0;
   border-bottom: 2px solid #1A31D9;
-  min-height: 200px; }
+  min-height: 200px;
+}
 
 .navbar {
-  background-image: linear-gradient(#04D939, #012340); }
+  background-image: linear-gradient(#04D939, #012340);
+}
 
 .btn-primary {
-  background-color: #1A31D9; }
+  background-color: #1A31D9;
+}
 
 .form-control:focus {
   border-color: #04D939;
   box-shadow: inset 0 lid #DDD lid #DDD #04D939, 0 0 8px #04D939;
   border-top: none;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .img-thumbnail {
   background-color: #012340;
   border: lid #DDD solid #012340;
   border-top: none;
   padding: 10px;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+}
 
 .bg-green {
   background-color: #04D939;
-  color: white; }
+  color: white;
+}
 
 .bg-green h3 {
-  color: white; }
+  color: white;
+}
 
 .col-form-label {
-  color: black; }
+  color: black;
+}
 
 .close {
   top: 10px;
   right: 25px;
   font-size: 35px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .btn h5 {
   color: white;
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+}
 
 .tab-content {
   border: lid #DDD;
   border-top: none;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .nav-item .nav-link.active {
-  color: #04D939; }
+  color: #04D939;
+}
 
 a:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .carousel-caption h3 {
-  color: #04D939; }
+  color: #04D939;
+}
 
 .carousel {
-  border: solid 4px #012340; }
+  border: solid 4px #012340;
+}
 
-#carouselButton {
+.carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 100; }
+  z-index: 100;
+}
