@@ -64,8 +64,8 @@ hr {
   background-color: #04D939;
   color: white; }
 
-.bg-green h3 {
-  color: white; }
+/* .bg-green h3 {
+  color: white; } */
 
 .col-form-label {
   color: black; }
@@ -105,3 +105,13 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #04D939; }
+  #reserveModal .modal-header h3 {
+    color: white; }
+
+#loginModal .modal-header {
+  background-color: #1A31D9; }
+  #loginModal .modal-header h3 {
+    color: white; }

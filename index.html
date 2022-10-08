@@ -37,7 +37,7 @@
           <h2>a better way to camp</h2>
         </div>
         <div class="col col-md-4 col-xl-2 mt-4">
-          <a role="button" class="btn btn-lg bg-green text-white mt-2" data-toggle="modal" data-target="#reserveModal">Reserve Now
+          <a role="button" class="btn btn-lg bg-green text-white mt-2" id="reserveButton">Reserve Now
           </a>
         </div>
       </div>
@@ -46,7 +46,7 @@
   <div id="reserveModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
-        <div class="modal-header bg-green">
+        <div class="modal-header">
           <h3 class="modal-title">Reserve a Campsite</h3>
           <button class="close" type="button" data-dismiss="modal">&times;</button>
         </div>
@@ -110,7 +110,7 @@
           <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
         </ul>
         <span class="navbar-text ml-auto">
-          <a role="button" data-toggle="modal" data-target="#loginModal">
+          <a role="button" id="loginButton">
             <i class="fa fa-sign-in fa-lg"></i> Login
           </a>
         </span>
@@ -262,7 +262,7 @@
             <li><a href="aboutus.html">About</a></li>
             <li><a href="#">Sites</a></li>
             <li><a href="contactus.html">Contact</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#reserveModal">Reserve</a></li>
+            <li><a href="#" id="reserveLink">Reserve</a></li>
           </ul>
         </div>
         <div class="col-6 col-sm-5 text-center">
